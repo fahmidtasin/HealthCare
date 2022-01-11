@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailGastric">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:text="DRUG for Gastritis:-
+"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_below="@+id/t1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="1.	(Cimetidine)
+"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_below="@+id/t2"
+        android:textSize="17sp"
+        android:text="INDICATIONS:-  Cimetidine is used to treat and prevent certain types of ulcer, and to treat conditions that cause the stomach to produce too much acid. Cimetidine is also used to treat gastroesophageal reflux disease (GERD), when stomach acid backs up into the esophagus and causes heartburn.
+"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_below="@+id/t3"
+        android:textSize="17sp"
+        android:text="BY MOUTH:-
+For duodenal and benign gastric ulcer:400mg, 2 times daily with breakfast and at bed time or 800 mg at bedtime for minimun 4 weeks, then 400mg once or twice daily as maintenance dose.
+For Reflux oesophagitis:400mg 4 times a day after meals."
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_below="@+id/t4"
+        android:textSize="17sp"
+        android:text="DOSAGE AND ADMINISTRATION OF CIMETIDINE:-
+Adult
+"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_below="@+id/t5"
+        android:textSize="17sp"
+        android:text="BY INJECTION:-
+200mg i.m. or slow i.v. (100- 150mg/hour) 4 to 6 hourly, maximum dose 2 gm daily.
+"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_below="@+id/t6"
+        android:text="SIDE EFFECTS OF CIMETIDINE:-
+•	cough, fever, chest congestion, trouble breathing
+•	red or blistering skin rash
+•	jaundice (yellowing of the skin or eyes)
+•	easy bruising or bleeding, unusual weakness
+•	feeling faint, light-headed, disoriented, or confused
+•	urinating less than usual
+•	irregular heartbeat; or
+•	a rash"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

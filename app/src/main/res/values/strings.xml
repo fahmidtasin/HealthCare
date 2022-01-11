@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="grid_layout">GRID LAYOUT</string>
+    <string name="healthcare">HealthCare</string>
+    <string name="b1">b1</string>
+
+
+    <string-array name="docstr">
+
+        <item>Orthopaedic (Bone, Joint, Fractures)</item>
+        <item>Cardiology (Heart)</item>
+        <item>Radiology &amp; Imaging (X-Ray) </item>
+        <item>Pathology (Tests)</item>
+        <item>Perfusion (Blood)</item>
+        <item>Vascular Surgery (Medical Therapy)</item>
+        <item>ENT (Ear, Nose &amp; Throat)</item>
+
+    </string-array>
+
+    <string-array name="array_technology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Php</item>
+        <item>Hadoop</item>
+        <item>Sap</item>
+        <item>Python</item>
+        <item>Ajax</item>
+        <item>C++</item>
+        <item>Ruby</item>
+        <item>Rails</item>
+        <item>.Net</item>
+        <item>Perl</item>
+    </string-array>
+
+
+</resources>

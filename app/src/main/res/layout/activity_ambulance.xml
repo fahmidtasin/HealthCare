@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmbulanceActivity">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambulance Service"
+        android:textColor="#0d0002"
+        android:textSize="40dp"
+        android:background="#ff0c24"
+        android:textAlignment="center"
+        />
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_below="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mirpur"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Mirpur:"
+            android:textColor="#0d0002"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mirpurdetails"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/mirpur"
+        android:text="Easier Ambulance Ltd."
+        android:textColor="#0d0002"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/callmirpur"
+            android:layout_below="@+id/mirpurdetails"
+            android:layout_marginLeft="20dp"
+            android:text="CALL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dhanmondi"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dhanmondi:"
+            android:textColor="#0d0002"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dhanmondidetails"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/dhanmondi"
+            android:text="Salman Ambulance Service"
+            android:textColor="#0d0002"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/calldhanmondi"
+            android:layout_below="@+id/dhanmondidetails"
+            android:layout_marginLeft="20dp"
+            android:text="CALL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/banani"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Banani:"
+            android:textColor="#0d0002"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bananidetails"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/banani"
+            android:text="AS Ambulance Service"
+            android:textColor="#0d0002"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/callbanani"
+            android:layout_below="@+id/bananidetails"
+            android:layout_marginLeft="20dp"
+            android:text="CALL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
