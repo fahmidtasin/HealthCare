@@ -1,6 +1,6 @@
 package com.example.healthcare;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -16,8 +16,8 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
 
+        // Create a custom AboutPage
         Element adsElement = new Element();
         adsElement.setTitle("Advertise here");
 
@@ -28,23 +28,25 @@ public class AboutActivity extends AppCompatActivity {
                 .addItem(new Element().setTitle("Version 1.0"))
                 .addItem(adsElement)
                 .addGroup("Connect with us")
-                .addWebsite("http://CarLMama.com")
+                .addGitHub("fahmidtasin")
+                .addWebsite("https://fahmidtasin.github.io")
                 .addFacebook("https://www.facebook.com/fahmid.tasin")
-                .addTwitter("https://twitter.com/fahmidtasin")
-                .addYoutube("https://www.youtube.com/channel/UChu4_VRFCW_6YW3v3kAwNzQ?")
                 .addPlayStore("MyPlaystore")
-                .addInstagram("MyInstagram")
+                .addInstagram("http://instagram.com/fahmidtasin")
                 .addItem(createCopyright())
                 .create();
+
         setContentView(aboutPage);
     }
 
     private Element createCopyright() {
-
         Element copyright = new Element();
-        final String copyrightString = String.format("Copyright %d by CarLMama", Calendar.getInstance().get(Calendar.YEAR));
+        final String copyrightString = String.format("Copyright %d by Fahmid Shafath Tasin", Calendar.getInstance().get(Calendar.YEAR));
         copyright.setTitle(copyrightString);
-        copyright.setIcon(R.mipmap.ic_launcher);
+
+        // ✅ Correct method for icon in latest Element
+//        copyright.setIconResource(R.mipmap.ic_launcher);
+
         copyright.setGravity(Gravity.CENTER);
         copyright.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,5 +56,4 @@ public class AboutActivity extends AppCompatActivity {
         });
         return copyright;
     }
-
 }
