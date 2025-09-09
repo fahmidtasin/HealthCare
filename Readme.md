@@ -36,7 +36,7 @@ HealthCare App is an Android application designed to provide users with quick ac
 - **AndroidX**
   - AppCompat, ConstraintLayout, Test Libraries
 - **AboutPage**
-  - `com.github.medyo:android-about-page:v1.3.1` (via JitPack)
+  - `com.github.medyo:android-about-page:v1.2.1` (via JitPack)
 - **Gradle Plugin**
   - 8.13.0
 - **Minimum SDK**
