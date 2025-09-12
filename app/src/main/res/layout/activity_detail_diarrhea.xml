@@ -1,128 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".DetailDiarrhea">
 
-    <TextView
-        android:id="@+id/t1"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:text="DRUG for Diarrhoea:-
-"
-        android:textColor="@color/colorAccent"
-        android:textAlignment="center"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="30dp" />
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/t1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="DRUG for Diarrhoea:-
+    "
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
 
-    <TextView
-        android:id="@+id/t2"
-        android:layout_below="@+id/t1"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:text="1. (Metronidazole)
-"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_below="@+id/t1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="1. (Metronidazole)
+    "
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t3"
-        android:layout_below="@+id/t2"
-        android:textSize="17sp"
-        android:text="INDICATIONS:  Metronidazole is an antibiotic that is used to treat a wide variety of infections. It works by stopping the growth of certain bacteria and parasites.This antibiotic treats only certain bacterial and parasitic infections. It will not work for viral infections (such as common cold, flu). Using any antibiotic when it is not needed can cause it to not work for future infections.Metronidazole may also be used with other medications to treat certain stomach/intestinal ulcers caused by a bacteria (H. pylori).
-"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_below="@+id/t2"
+            android:textSize="17sp"
+            android:text="\nINDICATIONS:-\n  Metronidazole is an antibiotic that is used to treat a wide variety of infections. It works by stopping the growth of certain bacteria and parasites.This antibiotic treats only certain bacterial and parasitic infections. It will not work for viral infections (such as common cold, flu). Using any antibiotic when it is not needed can cause it to not work for future infections.Metronidazole may also be used with other medications to treat certain stomach/intestinal ulcers caused by a bacteria (H. pylori).
+    "
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t4"
-        android:layout_below="@+id/t3"
-        android:textSize="17sp"
-        android:text="DOSAGE AND ADMINISTRATION OF METRONIDAZOLE:-
-Anaerobic Bacterial Infections,
-Loading dose: 15 mg/kg IV; not to exceed 4 g/day,
-Maintenance dose: 7.5 mg/kg PO/IV (over 1 h) q6hr x 7-10 days (or 2-3 weeks if severe),
-Sexually Transmitted Disease,
-Prevention following sexual assault,
-2 g PO as a single dose; 3-drug regimen that also includes ceftriaxone or cefixime, PLUS azithromycin or doxycycline (CDC STD guidelines, 2010)
-Bacterial Vaginosis."
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t4"
+            android:layout_below="@+id/t3"
+            android:textSize="17sp"
+            android:text="\nDOSAGE AND ADMINISTRATION OF METRONIDAZOLE:-
+    \nAnaerobic Bacterial Infections,
+    Loading dose: 15 mg/kg IV; not to exceed 4 g/day,
+    Maintenance dose: 7.5 mg/kg PO/IV (over 1 h) q6hr x 7-10 days (or 2-3 weeks if severe),
+    Sexually Transmitted Disease,
+    Prevention following sexual assault,
+    2 g PO as a single dose; 3-drug regimen that also includes ceftriaxone or cefixime, PLUS azithromycin or doxycycline (CDC STD guidelines, 2010)
+    Bacterial Vaginosis."
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t5"
-        android:layout_below="@+id/t4"
-        android:textSize="17sp"
-        android:text="FOR NON-PREGNANT WOMAN:-
-•	500 mg PO BID x 7 days, OR
-•	2 g PO qDay single dose, OR
-•	Extended-release: 750 mg PO qDay x 7 days
-"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t5"
+            android:layout_below="@+id/t4"
+            android:textSize="17sp"
+            android:text="\nFOR NON-PREGNANT WOMAN:-\n
+    •	500 mg PO BID x 7 days, OR
+    •	2 g PO qDay single dose, OR
+    •	Extended-release: 750 mg PO qDay x 7 days
+    "
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t6"
-        android:layout_below="@+id/t5"
-        android:textSize="17sp"
-        android:text="FOR PREGNANT WOMAN:-
-•	500 mg PO BID x 7 days, OR
-•	250 mg PO TID x 7 days"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t6"
+            android:layout_below="@+id/t5"
+            android:textSize="17sp"
+            android:text="\nFOR PREGNANT WOMAN:-\n
+    •	500 mg PO BID x 7 days, OR
+    •	250 mg PO TID x 7 days"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
 
-    <TextView
-        android:id="@+id/t7"
-        android:layout_below="@+id/t6"
-        android:text="COLORECTAL SURGICAL INFECTION:-
-Prophylaxis; start after mechanical bowel preparation the afternoon and evening before surgery
-1 g PO q6-8hr for 3 doses
-15 mg/kg IV over 30-60 min; complete approximately 1 hr before surgery; may administer 7.5 mg/kg IV over 30-60 min at 6 and 12 hr after initial dose for maintenance; discontinue within 12 hr after surgery
-"
-        android:textSize="17sp"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t7"
+            android:layout_below="@+id/t6"
+            android:text="\nCOLORECTAL SURGICAL INFECTION:-\n
+    Prophylaxis; start after mechanical bowel preparation the afternoon and evening before surgery
+    1 g PO q6-8hr for 3 doses
+    15 mg/kg IV over 30-60 min; complete approximately 1 hr before surgery; may administer 7.5 mg/kg IV over 30-60 min at 6 and 12 hr after initial dose for maintenance; discontinue within 12 hr after surgery
+    "
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t8"
-        android:layout_below="@+id/t7"
-        android:text="TRICHOMONIASIS:-
-250 mg PO q8hr for 7 days; alternatively, 375 mg PO q12hr for 7 days
-2 g PO qDay single dose; alternatively, 1g PO q12hr for 2 doses"
-        android:textSize="17sp"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t8"
+            android:layout_below="@+id/t7"
+            android:text="\nTRICHOMONIASIS:-\n
+    250 mg PO q8hr for 7 days; alternatively, 375 mg PO q12hr for 7 days
+    2 g PO qDay single dose; alternatively, 1g PO q12hr for 2 doses"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t9"
-        android:layout_below="@+id/t8"
-        android:text="AMEBIASIS:-
-500-750 mg PO q8hr for 5-10 days"
-        android:textSize="17sp"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/t9"
+            android:layout_below="@+id/t8"
+            android:text="\nAMEBIASIS:-\n
+    500-750 mg PO q8hr for 5-10 days"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/t10"
-        android:layout_below="@+id/t9"
-        android:text="SIDE EFFECTS OF METRONIDAZOLE:
-Dizziness, headache, stomach upset, nausea, vomiting, loss of appetite, diarrhea, constipation, or metallic taste in your mouth may occur. If any of these effects last or get worse, tell your doctor or pharmacist promptly.
+        <TextView
+            android:id="@+id/t10"
+            android:layout_below="@+id/t9"
+            android:text="\nSIDE EFFECTS OF METRONIDAZOLE:-\n
+    Dizziness, headache, stomach upset, nausea, vomiting, loss of appetite, diarrhea, constipation, or metallic taste in your mouth may occur. If any of these effects last or get worse, tell your doctor or pharmacist promptly.
 
-"
-        android:textSize="17sp"
-        android:textAlignment="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    "
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-</RelativeLayout>
+    </LinearLayout>
+</ScrollView>
